@@ -1,0 +1,106 @@
+<div className="svg_div">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 666 325"
+            id="svg2358299341"
+          >
+            <path
+              d="M 65 1 L 65 180"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 145 1 L 145 241"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 225 1 L 225 276"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 305 1 L 305 325"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 385 1 L 385 325"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 465 1 L 465 276"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 545 1 L 545 241"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 625 1 L 625 180"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 0 1 L 666 1"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 0 81 L 666 81"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 0 161 L 666 161"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 187 241 L 480 241"
+              fill="transparent"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 385.5 160.5 L 385.5 81.5 L 464.5 81.5 L 464.5 160.5 Z"
+              fill="rgb(231,231,235)"
+              stroke="rgb(231,231,235)"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+            ></path>
+            <path
+              d="M 145.5 80.5 L 145.5 1.5 L 224.5 1.5 L 224.5 80.5 Z"
+              fill='var(--token-fcd736a3-0a93-4967-8635-ab3505574263, rgb(254, 230, 90)) /* {"name":"Yellow"} */'
+              stroke='var(--token-fcd736a3-0a93-4967-8635-ab3505574263, rgb(254, 230, 90)) /* {"name":"Yellow"} */'
+              stroke-miterlimit="10"
+            ></path>
+          </svg>
+        </div>
