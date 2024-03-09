@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import "./home.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Grid from "./Grid";
 import Spline from "@splinetool/react-spline";
 import Grid2 from "./Grid2";
 import Marquee from "react-fast-marquee";
+
 const Home = () => {
   const partners = [
     { id: "1", name: "Service Experts" },
@@ -224,6 +225,61 @@ const Home = () => {
               </div>
             </div>
             <div className="ourservice_section_area_body_cont1_line_last"></div>
+          </div>
+        </div>
+        <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
+      </section>
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      <section className="ourservice_section">
+        <div className="works_section_area">
+          <div className="works_section_area_heading">Works We've Done</div>
+          <div className="works_section_area_para">
+            We give you the expertise and tools to access unique liquidity and
+            manage risk across your operations.
+          </div>
+          <div className="works_section_area_tab">
+            Selected Works{" "}
+            <div className="works_section_area_tab_view_div">
+              <button className="Home_div_section1_area_1_btn">
+                <span className="Home_div_section1_area_1_btn_span">
+                  View More{" "}
+                </span>
+                <div className="Home_div_section1_area_1_btn_icon_div">
+                  <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
+                </div>
+              </button>
+            </div>
+          </div>
+          <div className="works_section_area_body">
+            <div className="works_section_area_body1">
+              <img
+                src="/img/works_bg1.jpeg"
+                alt=""
+                className="works_section_area_body1_img"
+              />
+            </div>
+            <div className="works_section_area_body1">
+              <img
+                src="/img/works_bg2.webp"
+                alt=""
+                className="works_section_area_body1_img"
+              />
+            </div>
+            <div className="works_section_area_body1">
+              <img
+                src="/img/works_bg3.webp"
+                alt=""
+                className="works_section_area_body1_img"
+              />
+            </div>
           </div>
         </div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
@@ -624,6 +680,130 @@ const Home = () => {
       {/* ==================== */}
       {/* ==================== */}
       {/* ==================== */}
+      {/* ==================== */}
+      <section className="Home_div_section5">
+        <div className="Home_div_section5_area">
+          <div className="Home_div_section5_area_cont1">
+            <div className="Home_div_section5_area_cont1_title">
+              Build Something Great With Our Experts
+            </div>
+            <div className="Home_div_section5_area_cont1_para">
+              A team of dreamers and doers like you, ready to bring your ideas
+              to life.
+            </div>
+          </div>
+          <div className="Home_div_section6_area_2">
+            <div className="Home_div_section6_area_2_cont1">
+              <img
+                src="/img/team_member1.jpeg"
+                alt=""
+                className="Home_div_section6_area_2_cont1_img"
+              />
+              <div className="Home_div_section6_area_2_cont1_name">
+                <div className="Home_div_section6_area_2_cont1_name_title">
+                  Yomi Denzel
+                </div>
+                <div className="Home_div_section6_area_2_cont1_name_para">
+                  Product Manager
+                </div>
+              </div>
+              <div className="Home_div_section6_area_2_cont1_bg"></div>
+              <div className="Home_div_section6_area_2_cont1_About">
+                <div className="Home_div_section6_area_2_cont1_About_txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  consequuntur dolorum distinctio voluptatum hic ea quis quas
+                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
+                  deserunt laudantium vitae eaque.
+                </div>
+              </div>
+            </div>
+            <div className="Home_div_section6_area_2_cont1">
+              <img
+                src="/img/team_member1.jpeg"
+                alt=""
+                className="Home_div_section6_area_2_cont1_img"
+              />
+              <div className="Home_div_section6_area_2_cont1_name">
+                <div className="Home_div_section6_area_2_cont1_name_title">
+                  Yomi Denzel
+                </div>
+                <div className="Home_div_section6_area_2_cont1_name_para">
+                  Product Manager
+                </div>
+              </div>
+              <div className="Home_div_section6_area_2_cont1_bg"></div>
+              <div className="Home_div_section6_area_2_cont1_About">
+                <div className="Home_div_section6_area_2_cont1_About_txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  consequuntur dolorum distinctio voluptatum hic ea quis quas
+                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
+                  deserunt laudantium vitae eaque.
+                </div>
+              </div>
+            </div>
+            <div className="Home_div_section6_area_2_cont1">
+              <img
+                src="/img/team_member1.jpeg"
+                alt=""
+                className="Home_div_section6_area_2_cont1_img"
+              />
+              <div className="Home_div_section6_area_2_cont1_name">
+                <div className="Home_div_section6_area_2_cont1_name_title">
+                  Yomi Denzel
+                </div>
+                <div className="Home_div_section6_area_2_cont1_name_para">
+                  Product Manager
+                </div>
+              </div>
+              <div className="Home_div_section6_area_2_cont1_bg"></div>
+              <div className="Home_div_section6_area_2_cont1_About">
+                <div className="Home_div_section6_area_2_cont1_About_txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  consequuntur dolorum distinctio voluptatum hic ea quis quas
+                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
+                  deserunt laudantium vitae eaque.
+                </div>
+              </div>
+            </div>
+            <div className="Home_div_section6_area_2_cont1">
+              <img
+                src="/img/team_member1.jpeg"
+                alt=""
+                className="Home_div_section6_area_2_cont1_img"
+              />
+              <div className="Home_div_section6_area_2_cont1_name">
+                <div className="Home_div_section6_area_2_cont1_name_title">
+                  Yomi Denzel
+                </div>
+                <div className="Home_div_section6_area_2_cont1_name_para">
+                  Product Manager
+                </div>
+              </div>
+              <div className="Home_div_section6_area_2_cont1_bg"></div>
+              <div className="Home_div_section6_area_2_cont1_About">
+                <div className="Home_div_section6_area_2_cont1_About_txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                  consequuntur dolorum distinctio voluptatum hic ea quis quas
+                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
+                  deserunt laudantium vitae eaque.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
+      </section>
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
+      {/* ==================== */}
       <section className="Home_div_section5">
         <div className="Home_div_section5_area">
           <div className="Home_div_section5_area_cont1">
@@ -749,142 +929,6 @@ const Home = () => {
       {/* ==================== */}
       {/* ==================== */}
       {/* ==================== */}
-      {/* <section className="Home_div_section6">
-        <div className="Home_div_section6_area">
-          <div className="Home_div_section6_area_1">
-            <div className="Home_div_section6_area_1_title">
-              Our Exclusive Team
-            </div>
-            <div className="Home_div_section6_area_1_para">
-              Welcome to a community where excellence meets innovation
-            </div>
-          </div>
-          <div className="Home_div_section6_area_2">
-            <div className="Home_div_section6_area_2_cont1">
-              <img
-                src="/img/team_member1.jpeg"
-                alt=""
-                className="Home_div_section6_area_2_cont1_img"
-              />
-              <div className="Home_div_section6_area_2_cont1_name">
-                <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
-                </div>
-                <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
-                </div>
-              </div>
-              <div className="Home_div_section6_area_2_cont1_bg"></div>
-              <div className="Home_div_section6_area_2_cont1_About">
-                <div className="Home_div_section6_area_2_cont1_About_txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  consequuntur dolorum distinctio voluptatum hic ea quis quas
-                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
-                  deserunt laudantium vitae eaque.
-                </div>
-              </div>
-            </div>
-            <div className="Home_div_section6_area_2_cont1">
-              <img
-                src="/img/team_member1.jpeg"
-                alt=""
-                className="Home_div_section6_area_2_cont1_img"
-              />
-              <div className="Home_div_section6_area_2_cont1_name">
-                <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
-                </div>
-                <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
-                </div>
-              </div>
-              <div className="Home_div_section6_area_2_cont1_bg"></div>
-              <div className="Home_div_section6_area_2_cont1_About">
-                <div className="Home_div_section6_area_2_cont1_About_txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  consequuntur dolorum distinctio voluptatum hic ea quis quas
-                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
-                  deserunt laudantium vitae eaque.
-                </div>
-              </div>
-            </div>
-            <div className="Home_div_section6_area_2_cont1">
-              <img
-                src="/img/team_member1.jpeg"
-                alt=""
-                className="Home_div_section6_area_2_cont1_img"
-              />
-              <div className="Home_div_section6_area_2_cont1_name">
-                <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
-                </div>
-                <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
-                </div>
-              </div>
-              <div className="Home_div_section6_area_2_cont1_bg"></div>
-              <div className="Home_div_section6_area_2_cont1_About">
-                <div className="Home_div_section6_area_2_cont1_About_txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  consequuntur dolorum distinctio voluptatum hic ea quis quas
-                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
-                  deserunt laudantium vitae eaque.
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="Home_div_section6_area_2">
-            <div className="Home_div_section6_area_2_cont1">
-              <img
-                src="/img/team_member1.jpeg"
-                alt=""
-                className="Home_div_section6_area_2_cont1_img"
-              />
-              <div className="Home_div_section6_area_2_cont1_name">
-                <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
-                </div>
-                <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
-                </div>
-              </div>
-              <div className="Home_div_section6_area_2_cont1_bg"></div>
-              <div className="Home_div_section6_area_2_cont1_About">
-                <div className="Home_div_section6_area_2_cont1_About_txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  consequuntur dolorum distinctio voluptatum hic ea quis quas
-                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
-                  deserunt laudantium vitae eaque.
-                </div>
-              </div>
-            </div>
-            <div className="Home_div_section6_area_2_cont1">
-              <img
-                src="/img/team_member1.jpeg"
-                alt=""
-                className="Home_div_section6_area_2_cont1_img"
-              />
-              <div className="Home_div_section6_area_2_cont1_name">
-                <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
-                </div>
-                <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
-                </div>
-              </div>
-              <div className="Home_div_section6_area_2_cont1_bg"></div>
-              <div className="Home_div_section6_area_2_cont1_About">
-                <div className="Home_div_section6_area_2_cont1_About_txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                  consequuntur dolorum distinctio voluptatum hic ea quis quas
-                  cum eligendi ipsa? Iste qui voluptatum itaque minus obcaecati
-                  deserunt laudantium vitae eaque.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </div>
   );
 };
