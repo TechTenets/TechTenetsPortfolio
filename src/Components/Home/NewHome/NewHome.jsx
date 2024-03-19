@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NewHome.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Grid from "../Grid";
 import Marquee from "react-fast-marquee";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/swiper-bundle.css";
+
 const NewHome = () => {
+  const [swiperIndex, setSwiperIndex] = useState(0);
   const partners = [
     { id: "1", name: "Service Experts" },
     { id: "2", name: "Vital Skills Development Academy" },
@@ -298,6 +307,9 @@ const NewHome = () => {
       ),
     },
   ];
+  const handleSlideChange = (swiper) => {
+    setSwiperIndex(swiper.realIndex);
+  };
   return (
     <div className="NewHomeDiv">
       <section className="NeewHomeSection1">
@@ -325,11 +337,68 @@ const NewHome = () => {
             </div>
           </div>
           <div className="NeewHomeSection1_area_cont2">
-            <img
-              src="/img/hero_img_1.webp"
-              alt=""
-              className="NeewHomeSection1_area_cont2_img"
-            />
+            <Swiper
+              // ref={swiperRef}
+              slidesPerView={1}
+              spaceBetween={10}
+              centeredSlides={true}
+              loop={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+              }}
+              // modules={[Pagination]}
+              modules={[Autoplay, Pagination, Navigation]}
+              navigation={true}
+              className="HomeDivSection3_area_swiper"
+              //   onSlideChange={handleSlideChange}
+            >
+              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide1.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide2.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide3.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide5.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide>
+              {/* <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide1.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
+                <img
+                  src="/img/slide1.png"
+                  alt=""
+                  className="HomeDivSection3_area_swiper_slide_img"
+                />
+              </SwiperSlide> */}
+            </Swiper>
           </div>
         </div>
         <Grid />
@@ -378,21 +447,26 @@ const NewHome = () => {
             />
             <div className="NeewHomeSection2_area_1_cont2">
               <div className="NeewHomeSection2_area_1_cont1_tag">
-                Lyro AI Agent
+                TechTenets
               </div>
               <div className="NeewHomeSection2_area_1_cont2_title">
-                The AI support agent for growing businesses
+                The
+                <br />
+                Journey
               </div>
-              Lyro is a conversational AI that talks to your audience. Solve up
-              to 70% of customer problems - on any live channel, in 7 languages
-              - without extra hiring. Lyro AI Agent answers customers in 6
-              seconds using only your data and human-like language.
+              In my opinion, the most beautiful part of life is the processes we
+              steered to get where we are now, not the  accolades and glamour of
+              the finish line   we celebrate in the open.
               <br />
               <br />
               {/* <br /> */}
-              Lyro AI also performs tasks, freeing your support agents to focus
-              on high-value requests. Scale your operations with predictable
-              customer service expenses - starting at $0.5/conversation.
+              Our pursuit is to become a foremost digital innovation
+              and creative business development hub, specializing in building,
+              launching and scaling successful audio-technical  and web
+              development for both retail and big tech companies in Africa and
+              across the globe with a goal to inspire and spearhead new tech
+              trends, propel business growth and develop tech-preneurs with
+              global competitive influence.
               <div className="NeewHomeSection2_area_1_cont2_btn_div">
                 <button className="Home_div_section1_area_1_btn">
                   <span className="Home_div_section1_area_1_btn_span">
