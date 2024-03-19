@@ -1,8 +1,8 @@
 .footerDiv {
   padding: 4em 0em;
-  background: #000;
+  background: #021635;
   position: relative;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footerDivArea {
@@ -18,23 +18,88 @@
 
 .footer_hr {
   width: 100%;
-  color: #2c2c2c !important;
   margin: 15px 0px;
-  background: #454545 !important;
-  border: solid 1px #292929;
+  border: solid 1px #3a4557;
 }
 
 .footerDiv1 {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  flex-direction: column-reverse;
 }
 
 .footerDiv1_area1 {
   display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+/* ======= */
+/* ======= */
+/* ======= */
+.footer_contact_us_div {
+  width: 100%;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
+.footer_contact_us_div_title {
+  font-size: 72px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.footer_contact_us_div_para {
+  font-size: 24px;
+  color: #919bab;
+  font-weight: 300;
+}
+.footer_contact_us_div_body {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.footer_contact_us_div_body_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.footer_contact_us_div_body_1_title {
+  color: #64ed81;
+  margin-bottom: 10px;
+}
+.footer_contact_us_div_body_1_input {
+  width: 60%;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid 1px #a3b0c2;
+  background: none;
+  color: #fff;
+}
+.footer_contact_us_div_body_1_txt_area {
+  width: 60%;
+  padding: 15px;
+  border-radius: 15px;
+  /* border: solid 1px #b6bbc2; */
+  border: solid 1px #a3b0c2;
+  background: none;
+  color: #fff;
+}
+/* ======= */
+/* ======= */
+/* ======= */
+/* ======= */
+/* ======= */
+/* ======= */
+/* ======= */
+/* ======= */
 
 .footerDiv1_area1_cont1 {
   display: flex;

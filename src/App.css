@@ -5,6 +5,12 @@
   text-decoration: none !important;
   -webkit-font-smoothing: antialiased;
 }
+body,
+a,
+button {
+  cursor: none;
+  cursor: url(./img/custom_cursor.svg) 15 15, auto;
+}
 body {
   font-family: "Utendo", sans-serif;
 
@@ -76,9 +82,11 @@ button:focus {
 }
 .container {
   width: auto;
-  max-width: 1500px;
+  max-width: 1216px;
   margin: 0 auto;
   padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 .container_fluid {
   width: auto;
