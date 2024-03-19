@@ -7,8 +7,8 @@
   overflow: hidden;
 }
 .NeewHomeSection1_area {
-  max-width: 1216px;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
   /* padding-top: 64px; */
   padding: 0em 1em;
   padding-top: 64px;
@@ -19,12 +19,64 @@
   align-items: center;
   text-align: center;
 }
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+.HomeDivSection3_area_swiper {
+  width: 100%;
+  height: 100%;
+}
+.HomeDivSection3_area_swiper_slide_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+  min-height: 100svh;
+}
+/* .HomeDivSection3_area_swiper_slide_div_img {
+  width: 100%;
+} */
+.swiper-slide {
+  width: 100% !important;
+}
+.HomeDivSection3_area_swiper_slide_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.HomeDivSection3_area_swiper_slide_div_txt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeShow 1s ease-in-out;
+}
+.HomeDivSection3_area_swiper {
+  height: 650px;
+}
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
 .NeewHomeSection1_area_cont1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin-bottom: 3em;
+  max-width: 1216px;
+  width: 100%;
+  margin: auto;
 }
 .NeewHomeSection1_area_cont1_title {
   font-size: 82px;
@@ -43,6 +95,9 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 4em;
 }
 .NeewHomeSection1_area_cont2_img {
   width: 100%;
@@ -121,6 +176,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .NeewHomeSection2_area_1_cont1 {
   width: 100%;
@@ -144,14 +200,14 @@
   font-size: 16px;
 }
 .NeewHomeSection2_area_1_cont2_title {
-  font-size: 52px;
+  font-size: 82px;
   line-height: 1;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .NeewHomeSection2_area_1_cont1_img {
   width: 55%;
-  margin-right: 4em;
+  margin-left: 4em;
   border-radius: 20px;
 }
 .NeewHomeSection2_area_1_cont2_btn_div {
