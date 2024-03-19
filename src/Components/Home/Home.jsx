@@ -112,22 +112,164 @@ const Home = () => {
 
           {/* <div className="section1_new_area_2"> */}
           <Spline
-            scene="https://prod.spline.design/nloodoKZb5VCGux0/scene.splinecode"
+            scene="https://prod.spline.design/jyCEdX7VcLQ89LgC/scene.splinecode"
             className="home_div_section1_area_2_spline_scene"
           />
+
+          {/* <Spline
+            scene="https://prod.spline.design/jyCEdX7VcLQ89LgC/scene.splinecode"
+            className="home_div_section1_area_2_spline_scene"
+          /> */}
+
+          {/* <Spline
+            scene="https://prod.spline.design/nloodoKZb5VCGux0/scene.splinecode"
+            className="home_div_section1_area_2_spline_scene"
+          /> */}
 
           {/* </div> */}
         </div>
         <div className="Partners_div">
-          <div className="Partners_div_head">
+          <div className="review_area">
+            <div className="review_area_1">
+              <div className="review_area_1_titleb">
+                <span className="review_area_1_title_spanb">Riviewed On</span>
+                Trust Pilot
+              </div>
+              <div
+                role="img"
+                aria-label="Rating 4.7 of out 5 stars."
+                class="r3dhu86"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M18.0002 0H9.00537V18.0001H18.0002V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00524 0H0V18.0001H9.00524V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M18.0002 0H9.00537V18.0001H18.0002V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00524 0H0V18.0001H9.00524V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M18.0002 0H9.00537V18.0001H18.0002V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00524 0H0V18.0001H9.00524V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M18.0002 0H9.00537V18.0001H18.0002V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00524 0H0V18.0001H9.00524V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                >
+                  <path
+                    d="M18.0002 0H9.00537V18.0001H18.0002V0Z"
+                    fill="#DCDCE6"
+                  ></path>
+                  <path
+                    d="M9.00524 0H0V18.0001H9.00524V0Z"
+                    fill="#00B67B"
+                  ></path>
+                  <path
+                    d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div className="review_area_1">
+              <div className="review_area_1_title">
+                6 <span className="review_area_1_title_span2">Years</span>
+              </div>
+              <div className="review_area_1_body">Proven Track Record</div>
+            </div>
+            <div className="review_area_1">
+              <div className="review_area_1_title">
+                98 <span className="review_area_1_title_span2">%</span>
+              </div>
+              <div className="review_area_1_body">Customer Satisfaction</div>
+            </div>
+            <div className="review_area_1">
+              <div className="review_area_1_title">
+                100+ <span className="review_area_1_title_span2">Projects</span>
+              </div>
+              <div className="review_area_1_body">We Have Completed</div>
+            </div>
+          </div>
+          {/* <div className="Partners_div_head">
             {" "}
             Trusted By The World's Leading Companies And Startups
-          </div>
-          <Marquee className="Partners_div_body">
+          </div> */}
+          {/* <Marquee className="Partners_div_body">
             {partners.map((data) => (
               <div className="Home_div_section2_area2_txt">{data.name}</div>
             ))}
-          </Marquee>
+          </Marquee> */}
         </div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
         <img

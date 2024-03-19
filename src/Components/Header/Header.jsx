@@ -101,7 +101,7 @@ const Header = () => {
           </a>
           <div className="header_div_area_2">
             <div className="header_div_area_2_div">
-              Resources{" "}
+              Services{" "}
               <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
               <motion.div
                 variants={fadeIn("Up")}
@@ -112,116 +112,51 @@ const Header = () => {
                 className="header_div_area_2_div_drop"
               >
                 {" "}
-                <a
-                  href={
-                    window.location.protocol === "http:"
-                      ? `http://localhost:${window.location.port}/egax/coin/info`
-                      : `https://egochain.org/egax/coin/info`
-                  }
-                  className="header_div_area_2_link1"
-                >
+                <a href="#" className="header_div_area_2_link1">
                   <img
-                    src="/egax_logo.png"
+                    src="/img/sound_3d_icon.svg"
                     alt=""
-                    className="header_div_area_2_link1Img"
-                  />{" "}
-                  EGAX Coin
+                    className="header_div_area_2_link1_img"
+                  />
+                  Sound Engineering
                 </a>
-                <a
-                  href={
-                    window.location.protocol === "http:"
-                      ? `http://localhost:${window.location.port}/egc/coin/info`
-                      : `https://egochain.org/egc/coin/info`
-                  }
-                  className="header_div_area_2_link1"
-                >
+                <a href="#" className="header_div_area_2_link1">
                   <img
-                    src="/egc_icon2.svg"
+                    src="/img/sound_3d_icon.svg"
                     alt=""
-                    className="header_div_area_2_link1Img"
-                  />{" "}
-                  EGC Coin
+                    className="header_div_area_2_link1_img"
+                  />
+                  I.T Development
                 </a>
-                <a
-                  href={
-                    window.location.protocol === "http:"
-                      ? `http://localhost:${window.location.port}/about`
-                      : `https://egochain.org/about`
-                  }
-                  className="header_div_area_2_link1"
-                >
-                  <InfoIcon className="header_div_area_2_link1_icon" /> About
+                <a href="#" className="header_div_area_2_link1">
+                  <img
+                    src="/img/sound_3d_icon.svg"
+                    alt=""
+                    className="header_div_area_2_link1_img"
+                  />
+                  Media Management
                 </a>
-                <a
-                  href={
-                    window.location.protocol === "http:"
-                      ? `http://localhost:${window.location.port}/whitepaper`
-                      : `https://egochain.org/whitepaper`
-                  }
-                  className="header_div_area_2_link1"
-                >
-                  <DescriptionIcon className="header_div_area_2_link1_icon" />{" "}
-                  Whitepaper
+                <a href="#" className="header_div_area_2_link1">
+                  <img
+                    src="/img/sound_3d_icon.svg"
+                    alt=""
+                    className="header_div_area_2_link1_img"
+                  />
+                  Product Management
                 </a>
               </motion.div>
               {/* <div className="header_div_area_2_div_drop"></div> */}
             </div>
 
-            <a href="/wallet" className="header_div_area_2_link1">
-              Ego Wallet
+            <a href="#" className="header_div_area_2_link1">
+              About
             </a>
-            <a
-              href="https://github.com/EgorasMarket"
-              className="header_div_area_2_link1"
-              target="_blank"
-            >
-              Developers
-              <CallMadeIcon className="header_div_area_2_link1_icon" />
+            <a href="#" className="header_div_area_2_link1">
+              Projects
             </a>
-            <div className="header_div_area_2_div">
-              Products{" "}
-              <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
-              <motion.div
-                variants={fadeIn("Up")}
-                transition={transition()}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: false }}
-                className="header_div_area_2_div_drop"
-              >
-                <a
-                  href="https://egoswap.io"
-                  className="header_div_area_2_link1"
-                  target="_blank"
-                >
-                  <JoinLeftIcon className="header_div_area_2_link1_icon" />{" "}
-                  Egoswap{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
-                </a>
-                <a
-                  href="https://egoscan.io/"
-                  className="header_div_area_2_link1"
-                  target="_blank"
-                >
-                  <DocumentScannerIcon className="header_div_area_2_link1_icon" />{" "}
-                  Explorer{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
-                </a>
-                <a
-                  href={
-                    window.location.protocol === "http:"
-                      ? `http://faucet.localhost:${window.location.port}/`
-                      : `https://faucet.egochain.org/`
-                  }
-                  target="_blank"
-                  className="header_div_area_2_link1"
-                >
-                  <WaterDropIcon className="header_div_area_2_link1_icon" />{" "}
-                  Faucet{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
-                </a>
-              </motion.div>
-            </div>
+            <a href="#" className="header_div_area_2_link1">
+              Contact Us
+            </a>
 
             <MenuIcon
               className="header_div_area_2_menu_icon"
