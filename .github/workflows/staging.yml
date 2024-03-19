@@ -30,5 +30,6 @@ jobs:
         username: dev
         password: Xcode@200
         local-dir: ./dist/
+        # 
         server-dir: /ediaudiotech.com/
         
