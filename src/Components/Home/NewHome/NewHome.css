@@ -1,23 +1,56 @@
 .NeewHomeSection1 {
   position: relative;
   padding: 6em 0em;
-  padding-top: 8em;
+  padding-top: 10em;
   background: #001433;
   color: #ffff;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.NeewHomeSection1_area_cont1_title_span {
+  color: #64ed81;
 }
 .NeewHomeSection1_area {
-  width: 100%;
-  /* margin: auto; */
+  width: -webkit-fill-available;
+  max-width: 1400px;
+  margin: auto;
   /* padding-top: 64px; */
-  padding: 0em 1em;
-  padding-top: 64px;
+  padding: 0em 2em;
+  /* padding-top: 64px; */
   position: relative;
   z-index: 2;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   text-align: center;
+}
+.contact_us_divs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact_us_divs_cont1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.contact_us_divs_cont1_icon {
+  margin-right: 10px;
+  padding: 10px;
+  background: #64ed82;
+  border-radius: 25px;
+  color: #041735;
+}
+.NeewHomeSection1_area_cont1_cont {
+  font-size: 18px;
+  margin-bottom: 1em;
+  color: #059eff;
+}
+.contact_us_divs_cont1_link {
+  color: #fff;
+  cursor: pointer;
 }
 /* ===================== */
 /* ===================== */
@@ -71,33 +104,35 @@
 .NeewHomeSection1_area_cont1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 3em;
-  max-width: 1216px;
+  align-items: flex-start;
+  text-align: left;
   width: 100%;
-  margin: auto;
+  margin-right: 2em;
 }
 .NeewHomeSection1_area_cont1_title {
-  font-size: 82px;
+  font-size: 72px;
   font-weight: 600;
-  width: 75%;
-  line-height: 1.1;
+  width: 100%;
+  line-height: 1;
   margin-bottom: 15px;
 }
 .NeewHomeSection1_area_cont1_para {
   font-size: 18px;
-  width: 74%;
+  width: 75%;
   margin-bottom: 2em;
+  line-height: 1.5;
 }
 .NeewHomeSection1_area_cont2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 90%;
+  /* max-width: 1500px; */
+  /* margin: auto; */
+  /* margin-top: 4em; */
+}
+.NeewHomeSection1_area_cont2_new_img {
   width: 100%;
-  max-width: 1500px;
-  margin: auto;
-  margin-top: 4em;
 }
 .NeewHomeSection1_area_cont2_img {
   width: 100%;
@@ -107,6 +142,7 @@
   position: absolute;
   top: 3%;
   left: -14%;
+  opacity: 0.3;
 }
 .hero_line_div2 {
   width: 77%;
@@ -117,6 +153,7 @@
   -moz-transform: scaleX(-1);
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
+  opacity: 0.3;
 }
 .hero_abstract_img {
   position: absolute;
@@ -140,10 +177,11 @@
   margin: auto;
   padding: 0em 1em;
   margin-top: 5em;
+  width: -webkit-fill-available;
 }
 .new_section_trust_div_title {
   margin-bottom: 2em;
-  color: #798392;
+  color: #b3bac5;
 }
 .new_section_trust_div_body {
   width: 100%;
@@ -153,8 +191,18 @@
 /* ========== */
 /* ========== */
 /* ========== */
+.NeewHomeSection2b {
+  padding: 10em 0em;
+  position: relative;
+  overflow: hidden;
+  background: #2138b4;
+}
+.NeewHomeSection2b {
+  cursor: none;
+  cursor: url(./img/custom_cursor.svg) 15 15, auto;
+}
 .NeewHomeSection2 {
-  padding: 6em 0em;
+  padding: 10em 0em;
   position: relative;
   overflow: hidden;
 }
@@ -215,7 +263,7 @@
 }
 
 .NeewHomeSection2_area_2 {
-  margin-top: 4em;
+  margin-top: 0em;
   display: flex;
   flex-direction: column;
 }
@@ -233,6 +281,12 @@
 .NeewHomeSection2_area_2_top_bg_img {
   width: 500px;
   object-fit: cover;
+}
+.home_div_section5_area_btn_div {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .NeewHomeSection2_area_2_top_bg_txt_div {
@@ -437,10 +491,11 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: #c4efe9ba;
+  display: none;
 }
 .home_div_section5_area_body_cont_div1_last_txt {
   color: #3cd19a;
-  margin-top: 6em;
+  margin-top: 3em;
 }
 .home_div_section5_area_title_para {
   font-size: 24px;
@@ -461,7 +516,7 @@
   padding: 6em 0em;
 }
 .NeewHomeSection3_area {
-  width: 100%;
+  width: -webkit-fill-available;
   max-width: 1216px;
   margin: auto;
   padding: 0em 1em;
@@ -524,7 +579,7 @@
   background: #021635;
 }
 .NeewHomeSection4_area {
-  width: 100%;
+  width: -webkit-fill-available;
   max-width: 1216px;
   margin: auto;
   padding: 0em 1em;
@@ -565,13 +620,16 @@
 .NeewHomeSection5 {
   padding: 6em 0em;
   position: relative;
+  /* background: #2138b4; */
 }
 .NeewHomeSection5_cont {
   position: relative;
   z-index: 2;
   max-width: 1216px;
-  width: 100%;
+  width: -webkit-fill-available;
+  margin: 0 2em;
   margin: auto;
+  /* margin: 0 2em; */
   background: #021635;
   padding: 2em;
   border-radius: 25px;
@@ -615,4 +673,357 @@
 }
 .NeewHomeSection5_cont_2_img {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .NeewHomeSection1_area_cont1_title {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .NeewHomeSection1_area {
+    max-width: 720px;
+    flex-direction: column;
+  }
+  .new_section_trust_div {
+    max-width: 720px;
+  }
+  .NeewHomeSection2_area_1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .NeewHomeSection2_area_1_cont1_img {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 20px;
+    margin-top: 2em;
+  }
+  .NeewHomeSection2 {
+    padding: 4em 0em;
+    position: relative;
+    overflow: hidden;
+  }
+  .NeewHomeSection2_area {
+    max-width: 720px;
+  }
+  .NeewHomeSection2_area_1_cont2_title {
+    font-size: 58px;
+  }
+  .review_area {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .review_area_1_titleb {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .review_area_1_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .review_area_1_body {
+    font-size: 18px;
+    color: #596374;
+  }
+  .hero_line_div {
+    width: 100%;
+    position: absolute;
+    bottom: -3%;
+    left: -6%;
+    opacity: 0.3;
+  }
+  .NeewHomeSection2b {
+    padding: 4em 0em;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .NeewHomeSection2_area_2_top_bg_img {
+    width: 280px;
+    object-fit: cover;
+  }
+  .NeewHomeSection2_area_2_top_bg_txt_div_tag {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .NeewHomeSection2_area_2_top_bg_txt_div_title {
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.1;
+    text-align: right;
+  }
+  .home_div_section3_area_body {
+    display: grid;
+    /* justify-content: space-between; */
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 25px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+  }
+  .home_div_section5 {
+    position: relative;
+    padding: 4em 0em;
+    overflow: hidden;
+  }
+  .custom_container {
+    width: -webkit-fill-available;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    z-index: 1;
+  }
+  .home_div_section5_area_title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+  }
+  .home_div_section5_area_title_para {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 1em;
+  }
+  .home_div_section5_area_body_cont {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .NeewHomeSection3 {
+    position: relative;
+    padding: 4em 0em;
+  }
+  .NeewHomeSection3_area {
+    max-width: 720px;
+  }
+  .NeewHomeSection3_area1_title {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .NeewHomeSection3_area1_para {
+    width: 80%;
+    font-size: 16px;
+    color: #545454;
+  }
+  .NeewHomeSection3_area2_div1 {
+    width: 400px;
+    height: 200px;
+    margin-right: 1em;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .NeewHomeSection4 {
+    padding: 4em 0em;
+  }
+  .NeewHomeSection4_area {
+    max-width: 720px;
+  }
+  .NeewHomeSection4_area_1_title {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .NeewHomeSection4_area_1_para {
+    font-size: 14px;
+    width: 85%;
+  }
+  .NeewHomeSection4_area_2 {
+    margin-top: 2em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .Home_div_section6_area_2_cont1 {
+    width: -webkit-fill-available;
+    max-width: 350px;
+    margin: 0em 0em;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  .NeewHomeSection5 {
+    padding: 2em 0em;
+    position: relative;
+    /* background: #2138b4; */
+  }
+  .NeewHomeSection5_cont {
+    max-width: 720px;
+    margin: 0 2em;
+    margin: auto;
+    padding: 2em;
+  }
+  .NeewHomeSection5_cont_1 {
+    margin: 1em 1em;
+    margin-right: 2em;
+  }
+  .NeewHomeSection5_cont_1_title {
+    font-size: 42px;
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .NeewHomeSection5_cont_1_para {
+    font-size: 16px;
+  }
+  .NeewHomeSection5_cont_2 {
+    width: 65%;
+  }
+  .NeewHomeSection1_area_cont1 {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .NeewHomeSection1_area_cont1_title {
+    font-size: 32px;
+  }
+  .NeewHomeSection1 {
+    position: relative;
+    padding: 2em 0em;
+    padding-top: 6em;
+  }
+
+  .NeewHomeSection1_area_cont1_para {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 2em;
+    line-height: 1.5;
+  }
+  .NeewHomeSection1_area_cont2 {
+    width: 100%;
+  }
+  .NeewHomeSection2_area_1_cont2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .NeewHomeSection2_area_1_cont2_title {
+    font-size: 32px;
+  }
+  .review_area_1_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .review_area_1_title_span2 {
+    margin-left: 6px;
+    font-size: 14px;
+  }
+  .review_area_1_titleb {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .review_area_1_body {
+    font-size: 14px;
+  }
+  .home_div_section5_area_body_cont {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .NeewHomeSection1_area {
+    max-width: 720px;
+    flex-direction: column;
+    padding: 0em 1em;
+  }
+  .NeewHomeSection2_area_2_top_bg {
+    padding: 0em 2em;
+    border-radius: 20px;
+    /* padding: 1em; */
+    display: flex;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .NeewHomeSection2_area_2_top_bg_img {
+    width: 225px;
+    object-fit: cover;
+  }
+  .NeewHomeSection2_area_2_top_bg_txt_div_title {
+    font-size: 24px;
+    width: 100%;
+    line-height: 1.1;
+    text-align: right;
+    margin-top: 1em;
+  }
+  .home_div_section3_area_body_cont1 {
+    padding: 2em;
+    min-height: 20em;
+  }
+  .home_div_section3_area_body_cont1_body_text_title {
+    font-size: 24px;
+  }
+  .home_div_section3_area_body_cont1_body_text_para {
+    font-size: 14px;
+  }
+  .home_div_section5_area_body_cont_div1_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .NeewHomeSection3_area2_div1 {
+    width: 300px;
+    height: 200px;
+    margin-right: 1em;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .NeewHomeSection3_area1_para {
+    width: 100%;
+    font-size: 16px;
+  }
+  .NeewHomeSection4_area_1_para {
+    font-size: 14px;
+    width: 100%;
+  }
+  .Home_div_section6_area_2_cont1 {
+    border-radius: 15px;
+  }
+  .Home_div_section6_area_2_cont1_name_title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Home_div_section6_area_2_cont1_name_para {
+    font-size: 14px;
+  }
+  .NeewHomeSection5_cont {
+    max-width: 720px;
+    margin: 0 2em;
+    margin: auto;
+    padding: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+  .NeewHomeSection5_cont_1_title {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .NeewHomeSection5_cont_1 {
+    margin: 0em 0em;
+    margin-right: 0em;
+  }
 }

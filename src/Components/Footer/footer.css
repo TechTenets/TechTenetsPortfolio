@@ -3,8 +3,14 @@
   background: #021635;
   position: relative;
   color: #ffffff;
+  padding-top: 0;
+  overflow: hidden;
 }
-
+.footer_contact_div {
+  background: #2138b4;
+  padding: 6em 0em;
+  position: relative;
+}
 .footerDivArea {
   display: flex;
   flex-direction: column;
@@ -54,7 +60,7 @@
 }
 .footer_contact_us_div_para {
   font-size: 24px;
-  color: #919bab;
+  color: #ffffff;
   font-weight: 300;
 }
 .footer_contact_us_div_body {
@@ -76,21 +82,24 @@
   margin-bottom: 10px;
 }
 .footer_contact_us_div_body_1_input {
-  width: 60%;
+  width: 100%;
   padding: 20px;
   border-radius: 15px;
   border: solid 1px #a3b0c2;
-  background: none;
-  color: #fff;
+  background: #fff;
+  color: #021635;
+  font-size: 16px;
 }
 .footer_contact_us_div_body_1_txt_area {
-  width: 60%;
+  width: 100%;
   padding: 15px;
   border-radius: 15px;
   /* border: solid 1px #b6bbc2; */
   border: solid 1px #a3b0c2;
   background: none;
-  color: #fff;
+  color: #021635;
+  font-size: 16px;
+  background: #fff;
 }
 /* ======= */
 /* ======= */
@@ -279,5 +288,12 @@
 
   .footerDiv {
     padding: 2em 0em;
+    padding-top: 0;
+  }
+  .footerDiv1_area1_cont2_links_link_tel {
+    padding-left: 0;
+  }
+  .footerDiv1_area1 {
+    align-items: flex-start;
   }
 }

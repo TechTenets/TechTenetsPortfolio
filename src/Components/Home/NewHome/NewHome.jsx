@@ -317,15 +317,22 @@ const NewHome = () => {
           <div className="NeewHomeSection1_area_cont1">
             <div className="NeewHomeSection1_area_cont1_cont"></div>
             <div className="NeewHomeSection1_area_cont1_title">
-              Accelerate your growth with AI customer service
+              Boost Your Business
+              <br /> With Our Customized
+              <br /> Tech {"  "}
+              <span className="NeewHomeSection1_area_cont1_title_span">
+                Solutions.
+              </span>{" "}
             </div>
             <div className="NeewHomeSection1_area_cont1_para">
-              Answer up to 70% of customer inquiries without human intervention.
-              Convert more leads, provide stellar support, and supercharge your
-              revenue using our game-changing AI-driven customer service
-              solution.
+              Scale up your business to a minimum of 70% and maximum of infinity
+              with our bespoke tech tools that drives customer satisfaction and
+              timely service delivery.
             </div>
-            <div className="NeewHomeSection1_area_cont1_btns_div">
+            <a
+              href="/contact_us"
+              className="NeewHomeSection1_area_cont1_btns_div"
+            >
               <button className="Home_div_section1_area_1_btn">
                 <span className="Home_div_section1_area_1_btn_span">
                   Contact Us{" "}
@@ -334,71 +341,14 @@ const NewHome = () => {
                   <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
                 </div>
               </button>
-            </div>
+            </a>
           </div>
           <div className="NeewHomeSection1_area_cont2">
-            <Swiper
-              // ref={swiperRef}
-              slidesPerView={1}
-              spaceBetween={10}
-              centeredSlides={true}
-              loop={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              // modules={[Pagination]}
-              modules={[Autoplay, Pagination, Navigation]}
-              navigation={true}
-              className="HomeDivSection3_area_swiper"
-              //   onSlideChange={handleSlideChange}
-            >
-              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide1.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide2.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide3.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide5.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide>
-              {/* <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide1.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="HomeDivSection3_area_swiper_slide">
-                <img
-                  src="/img/slide1.png"
-                  alt=""
-                  className="HomeDivSection3_area_swiper_slide_img"
-                />
-              </SwiperSlide> */}
-            </Swiper>
+            <img
+              src="/img/hero_new_img.png"
+              alt=""
+              className="NeewHomeSection1_area_cont2_new_img"
+            />
           </div>
         </div>
         <Grid />
@@ -611,6 +561,17 @@ const NewHome = () => {
               <div className="review_area_1_body">We Have Completed</div>
             </div>
           </div>
+        </div>
+        <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
+      </section>
+      {/*============== */}
+      {/*============== */}
+      {/*============== */}
+      {/*============== */}
+      {/*============== */}
+      {/*============== */}
+      <section className="NeewHomeSection2b">
+        <div className="NeewHomeSection2_area">
           <div className="NeewHomeSection2_area_2">
             <div className="NeewHomeSection2_area_2_top_bg">
               <img
@@ -744,10 +705,11 @@ const NewHome = () => {
       {/*============== */}
       {/*============== */}
       <section className="home_div_section5">
-        <div className="container">
+        <div className="custom_container">
           <div className="home_div_section5_area">
             <div className="home_div_section5_area_title">
-              Want to transition into the tech space?
+              Want to transition
+              <br /> into the tech space?
               <div className="home_div_section5_area_title_para">
                 Let's get you trained from beginners to advance.
                 <br /> We offer courses such as
@@ -777,6 +739,16 @@ const NewHome = () => {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="home_div_section5_area_btn_div">
+              <button className="Home_div_section1_area_1_btn">
+                <span className="Home_div_section1_area_1_btn_span">
+                  Get Started
+                </span>
+                <div className="Home_div_section1_area_1_btn_icon_div">
+                  <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
+                </div>
+              </button>
             </div>
           </div>
         </div>
@@ -812,13 +784,13 @@ const NewHome = () => {
               totam odio voluptatum nostrum culpa illum. Odit impedit earum
               praesentium, molestiae maxime.
             </div>
-            <div className="NeewHomeSection3_area1_tabs">
+            {/* <div className="NeewHomeSection3_area1_tabs">
               <div className="NeewHomeSection3_area1_tab1">All</div>
               <div className="NeewHomeSection3_area1_tab1">Sound Eng</div>
               <div className="NeewHomeSection3_area1_tab1">I.T Dev</div>
               <div className="NeewHomeSection3_area1_tab1">Media Mngmt</div>
               <div className="NeewHomeSection3_area1_tab1">Product Mngmt</div>
-            </div>
+            </div> */}
           </div>
           <div className="NeewHomeSection3_area2">
             <div className="NeewHomeSection3_area2_div1">
@@ -981,7 +953,7 @@ const NewHome = () => {
               <br />
               Book your consultation session.
             </div>
-            <div className="NeewHomeSection5_cont_1_btn_div">
+            <a href="/contact_us" className="NeewHomeSection5_cont_1_btn_div">
               <button className="Home_div_section1_area_1_btn">
                 <span className="Home_div_section1_area_1_btn_span">
                   Contact Us{" "}
@@ -990,7 +962,7 @@ const NewHome = () => {
                   <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
                 </div>
               </button>
-            </div>
+            </a>
           </div>
           <div className="NeewHomeSection5_cont_2">
             {/* <div className="hero_line_div2"> */}
