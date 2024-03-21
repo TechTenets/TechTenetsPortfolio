@@ -839,10 +839,10 @@ const NewHome = () => {
           <div className="NeewHomeSection4_area_1">
             <div className="NeewHomeSection4_area_1_title">The Team</div>
             <div className="NeewHomeSection4_area_1_para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-              natus quaerat laborum corrupti! Autem, molestias delectus itaque
-              quasi sit quisquam, repellendus tempore vero voluptas nesciunt
-              natus dolorum fugiat veritatis cum.
+              Our team of cross-functional well-versed professionals transpose
+              tech businesses with an uncommon accession: rethinking
+              conventional and ecommerce commissary, and product development
+              from a service-oriented perspective.
             </div>
           </div>
           <div className="NeewHomeSection4_area_2">
@@ -854,10 +854,10 @@ const NewHome = () => {
               />
               <div className="Home_div_section6_area_2_cont1_name">
                 <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
+                  Blessed Alphonsus
                 </div>
                 <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
+                  Team Lead
                 </div>
               </div>
               <div className="Home_div_section6_area_2_cont1_bg"></div>
@@ -872,16 +872,16 @@ const NewHome = () => {
             </div>
             <div className="Home_div_section6_area_2_cont1">
               <img
-                src="/img/team_member1.jpeg"
+                src="/img/team_member2.jpeg"
                 alt=""
                 className="Home_div_section6_area_2_cont1_img"
               />
               <div className="Home_div_section6_area_2_cont1_name">
                 <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
+                  Goodluck Kingsley
                 </div>
                 <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
+                  Full stack engineer
                 </div>
               </div>
               <div className="Home_div_section6_area_2_cont1_bg"></div>
@@ -896,16 +896,16 @@ const NewHome = () => {
             </div>
             <div className="Home_div_section6_area_2_cont1">
               <img
-                src="/img/team_member1.jpeg"
+                src="/img/team_member3.jpeg"
                 alt=""
                 className="Home_div_section6_area_2_cont1_img"
               />
               <div className="Home_div_section6_area_2_cont1_name">
                 <div className="Home_div_section6_area_2_cont1_name_title">
-                  Yomi Denzel
+                  Ifeanyi Samuel
                 </div>
                 <div className="Home_div_section6_area_2_cont1_name_para">
-                  Product Manager
+                  Front end engineer
                 </div>
               </div>
               <div className="Home_div_section6_area_2_cont1_bg"></div>
