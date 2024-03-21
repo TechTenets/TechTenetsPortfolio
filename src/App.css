@@ -26,11 +26,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
 }
 .custom_container {
-  width: auto;
-  max-width: 1600px;
+  width: -webkit-fill-available;
+  max-width: 1216px;
   margin: 0 auto;
-  padding: 0em 1em;
-  height: 100%;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
 }
 button {
   transition: 0.3s ease-in-out;
@@ -81,8 +82,8 @@ button:focus {
   /* position: relative; */
 }
 .container {
-  width: auto;
-  max-width: 1216px;
+  width: -webkit-fill-available;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
   position: relative;

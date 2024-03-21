@@ -9,6 +9,8 @@ import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import JoinLeftIcon from "@mui/icons-material/JoinLeft";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import { motion } from "framer-motion";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 import "./header.css";
 
 export const fadeIn = (direction) => {
@@ -97,7 +99,7 @@ const Header = () => {
               alt=""
               className="header_div_area_1_img"
             />
-            TechTenets
+            EdiAudio-Tech
           </a>
           <div className="header_div_area_2">
             <div className="header_div_area_2_div">
@@ -154,8 +156,18 @@ const Header = () => {
             <a href="#" className="header_div_area_2_link1">
               Projects
             </a>
-            <a href="#" className="header_div_area_2_link1">
-              Contact Us
+            <a href="/pricing" className="header_div_area_2_link1">
+              Pricing
+            </a>
+            <a href="/contact_us" className="header_div_area_2_link1">
+              <button className="Home_div_section1_area_1_btn">
+                <span className="Home_div_section1_area_1_btn_span">
+                  Contact Us{" "}
+                </span>
+                <div className="Home_div_section1_area_1_btn_icon_div">
+                  <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
+                </div>
+              </button>
             </a>
 
             <MenuIcon

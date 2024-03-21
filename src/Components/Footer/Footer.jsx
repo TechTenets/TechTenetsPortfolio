@@ -24,9 +24,10 @@ const Footer = () => {
   }, []);
   return (
     <div className="footerDiv" id="footer">
-      <div className="container">
-        <div className="footerDivArea">
-          <div className="footerDiv1">
+      {/* <div className="container"> */}
+      <div className="footerDivArea">
+        <div className="footerDiv1">
+          <div className="container">
             <div className="footerDiv1_area1">
               <div className="footerDiv1_area1_cont1">
                 <img
@@ -34,7 +35,7 @@ const Footer = () => {
                   alt=""
                   className="footerDiv1_img2"
                 />
-                TechTenets
+                EdiAudio-Tech
               </div>
               <div className="footerDiv1_area1_cont2">
                 <div className="footerDiv1_area1_cont2_links">
@@ -83,65 +84,17 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="footer_contact_us_div">
-              <div className="footer_contact_us_div_title">Get In Touch</div>
-              <div className="footer_contact_us_div_para">
-                Contact us if you have any project in mind
-              </div>
-              <div className="footer_contact_us_div_body">
-                <div className="footer_contact_us_div_body_1">
-                  <div className="footer_contact_us_div_body_1_title">
-                    Your Name*
-                  </div>
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    className="footer_contact_us_div_body_1_input"
-                  />
-                </div>
-                <div className="footer_contact_us_div_body_1">
-                  <div className="footer_contact_us_div_body_1_title">
-                    Email*
-                  </div>
-                  <input
-                    type="text"
-                    placeholder="@gmail"
-                    className="footer_contact_us_div_body_1_input"
-                  />
-                </div>
-                <div className="footer_contact_us_div_body_1">
-                  <div className="footer_contact_us_div_body_1_title">
-                    Message
-                  </div>
-                  <textarea
-                    name=""
-                    id=""
-                    cols="30"
-                    rows="10"
-                    className="footer_contact_us_div_body_1_txt_area"
-                  ></textarea>
-                </div>
-
-                <div className="NeewHomeSection5_cont_1_btn_div">
-                  <button className="Home_div_section1_area_1_btn">
-                    <span className="Home_div_section1_area_1_btn_span">
-                      Get in touch
-                    </span>
-                    <div className="Home_div_section1_area_1_btn_icon_div">
-                      <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
+        </div>
 
-          <hr className="footer_hr" />
+        <hr className="footer_hr" />
+        <div className="container">
           <div className="footer_lastDiv">
-            © {currentYear} TechTenets. All rights reserved.
+            © {currentYear} EdiAudio-Tech. All rights reserved.
           </div>
         </div>
       </div>
+      {/* </div> */}
       {/* <Grid /> */}
       <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
     </div>
