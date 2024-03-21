@@ -905,7 +905,7 @@ const NewHome = () => {
                   Ifeanyi Samuel
                 </div>
                 <div className="Home_div_section6_area_2_cont1_name_para">
-                  Front end engineer
+                  Front-end engineer
                 </div>
               </div>
               <div className="Home_div_section6_area_2_cont1_bg"></div>
