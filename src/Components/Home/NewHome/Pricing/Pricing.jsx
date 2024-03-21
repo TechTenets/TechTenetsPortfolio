@@ -36,9 +36,11 @@ const Pricing = () => {
               <div className="pricing_page_div_section1_area2_card1_amount_area_price">
                 ₦150,000
               </div>
-              <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
-                Get Started
-              </button>
+              <a href="/contact_us" style={{ width: "100%" }}>
+                <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
+                  Get Started
+                </button>
+              </a>
             </div>
             <div className="pricing_page_div_section1_area2_card1_features_body">
               <div className="pricing_page_div_section1_area2_card1_features_body_cont1">
@@ -71,9 +73,11 @@ const Pricing = () => {
               <div className="pricing_page_div_section1_area2_card1_amount_area_price">
                 ₦250,000
               </div>
-              <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
-                Get Started
-              </button>
+              <a href="/contact_us" style={{ width: "100%" }}>
+                <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
+                  Get Started
+                </button>
+              </a>
             </div>
             <div className="pricing_page_div_section1_area2_card1_features_body">
               <div className="pricing_page_div_section1_area2_card1_features_body_cont1">
@@ -106,9 +110,11 @@ const Pricing = () => {
               <div className="pricing_page_div_section1_area2_card1_amount_area_price">
                 ₦500,000
               </div>
-              <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
-                Get Started
-              </button>
+              <a href="/contact_us" style={{ width: "100%" }}>
+                <button className="pricing_page_div_section1_area2_card1_amount_area_btn">
+                  Get Started
+                </button>
+              </a>
             </div>
             <div className="pricing_page_div_section1_area2_card1_features_body">
               <div className="pricing_page_div_section1_area2_card1_features_body_cont1">

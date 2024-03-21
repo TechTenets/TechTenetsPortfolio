@@ -740,7 +740,7 @@ const NewHome = () => {
                 </div>
               ))}
             </div>
-            <div className="home_div_section5_area_btn_div">
+            <a href="/pricing" className="home_div_section5_area_btn_div">
               <button className="Home_div_section1_area_1_btn">
                 <span className="Home_div_section1_area_1_btn_span">
                   Get Started
@@ -749,7 +749,7 @@ const NewHome = () => {
                   <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
                 </div>
               </button>
-            </div>
+            </a>
           </div>
         </div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
