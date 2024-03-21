@@ -37,7 +37,7 @@ const ContacUs = () => {
                 <div className="contact_us_divs_cont1">
                   <AddIcCallIcon className="contact_us_divs_cont1_icon" />
                   <a
-                    href="mailto:Hello@ediaudiotech.com"
+                    href="tel:+2348125045781"
                     className="contact_us_divs_cont1_link"
                     target="_blank"
                   >
@@ -47,7 +47,7 @@ const ContacUs = () => {
                 <div className="contact_us_divs_cont1">
                   <AddIcCallIcon className="contact_us_divs_cont1_icon" />
                   <a
-                    href="mailto:Hello@ediaudiotech.com"
+                    href="tel:+2348035415473"
                     className="contact_us_divs_cont1_link"
                     target="_blank"
                   >
