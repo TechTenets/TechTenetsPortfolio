@@ -839,6 +839,10 @@
 }
 .Home_div_section6_area_2_cont1_img {
   width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
 }
 .Home_div_section6_area_2_cont1_name {
   position: absolute;
@@ -852,8 +856,8 @@
 .Home_div_section6_area_2_cont1_bg {
   position: absolute;
   bottom: 0;
-  background: linear-gradient(359deg, #000000c2, transparent);
-  height: 100px;
+  background: linear-gradient(359deg, #000000f7, transparent);
+  height: 150px;
   width: 100%;
 }
 .Home_div_section6_area_2_cont1_name_title {
@@ -862,7 +866,7 @@
   color: #fff;
 }
 .Home_div_section6_area_2_cont1_name_para {
-  color: #b3ff00;
+  color: #64ed81;
   font-size: 18px;
 }
 
