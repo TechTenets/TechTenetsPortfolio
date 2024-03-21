@@ -10,6 +10,68 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/swiper-bundle.css";
+import { motion } from "framer-motion";
+
+export const fadeIn = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      y: direction === "down" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+export const opacity = () => {
+  return {
+    hidden: {
+      opacity: 0,
+    },
+    visible: { opacity: 1 },
+  };
+};
+export const fadeHorizontal = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      x: direction === "right" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+
+export const reveal = () => {
+  return {
+    hidden: {
+      left: 0,
+    },
+    visible: { left: "100%" },
+  };
+};
+
+export const scale = () => {
+  return {
+    hidden: {
+      scale: 1.5,
+      opacity: 0.2,
+    },
+    visible: { scale: 1.2, opacity: 0.8 },
+  };
+};
+
+export const transition = () => {
+  return {
+    duration: 0.75,
+    delay: 0.3,
+    ease: "easeIn",
+  };
+};
+export const transition2 = () => {
+  return {
+    duration: 1.5,
+    delay: 0.3,
+    ease: "easeIn",
+  };
+};
 
 const NewHome = () => {
   const [swiperIndex, setSwiperIndex] = useState(0);
@@ -314,7 +376,14 @@ const NewHome = () => {
     <div className="NewHomeDiv">
       <section className="NeewHomeSection1">
         <div className="NeewHomeSection1_area">
-          <div className="NeewHomeSection1_area_cont1">
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={{ duration: 0.75, delay: 0.3, ease: "easeIn" }}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection1_area_cont1"
+          >
             <div className="NeewHomeSection1_area_cont1_cont"></div>
             <div className="NeewHomeSection1_area_cont1_title">
               Boost Your Business
@@ -342,14 +411,21 @@ const NewHome = () => {
                 </div>
               </button>
             </a>
-          </div>
-          <div className="NeewHomeSection1_area_cont2">
+          </motion.div>
+          <motion.div
+            variants={opacity()}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection1_area_cont2"
+          >
             <img
               src="/img/hero_new_img.png"
               alt=""
               className="NeewHomeSection1_area_cont2_new_img"
             />
-          </div>
+          </motion.div>
         </div>
         <Grid />
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
@@ -389,7 +465,14 @@ const NewHome = () => {
       {/*============== */}
       <section className="NeewHomeSection2">
         <div className="NeewHomeSection2_area">
-          <div className="NeewHomeSection2_area_1">
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection2_area_1"
+          >
             <img
               src="/img/about_us_img.jpeg"
               alt=""
@@ -428,8 +511,15 @@ const NewHome = () => {
                 </button>
               </div>
             </div>
-          </div>
-          <div className="review_area">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="review_area"
+          >
             <div className="review_area_1">
               <div className="review_area_1_titleb">
                 {/* <span className="review_area_1_title_spanb">Riviewed On</span> */}
@@ -560,7 +650,7 @@ const NewHome = () => {
               </div>
               <div className="review_area_1_body">We Have Completed</div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
       </section>
@@ -573,7 +663,14 @@ const NewHome = () => {
       <section className="NeewHomeSection2b">
         <div className="NeewHomeSection2_area">
           <div className="NeewHomeSection2_area_2">
-            <div className="NeewHomeSection2_area_2_top_bg">
+            <motion.div
+              variants={opacity()}
+              transition={transition()}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="NeewHomeSection2_area_2_top_bg"
+            >
               <img
                 src="/img/3d_abstract_img.png"
                 alt=""
@@ -588,9 +685,16 @@ const NewHome = () => {
                   <br /> for a complex world.
                 </div>
               </div>
-            </div>
+            </motion.div>
             <div className="home_div_section3_area_body">
-              <div className="home_div_section3_area_body_cont1">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Secure Network
                 </div>
@@ -611,12 +715,19 @@ const NewHome = () => {
                     className="ourservice_section_area_body_cont1_icon_img"
                   />
                 </div>
-              </div>
+              </motion.div>
 
               {/* =========== */}
               {/* =========== */}
               {/* =========== */}
-              <div className="home_div_section3_area_body_cont1">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 {" "}
                 <div className="home_div_section3_area_body_cont1_title">
                   Unleashing
@@ -638,12 +749,19 @@ const NewHome = () => {
                     className="ourservice_section_area_body_cont1_icon_img"
                   />
                 </div>
-              </div>
+              </motion.div>
 
               {/* ========= */}
               {/* ========= */}
               {/* ========= */}
-              <div className="home_div_section3_area_body_cont1">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Unleash
                 </div>
@@ -665,12 +783,19 @@ const NewHome = () => {
                     className="ourservice_section_area_body_cont1_icon_img"
                   />
                 </div>
-              </div>
+              </motion.div>
 
               {/* ======== */}
               {/* ======== */}
               {/* ======== */}
-              <div className="home_div_section3_area_body_cont1">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Transactions
                 </div>
@@ -692,7 +817,7 @@ const NewHome = () => {
                     className="ourservice_section_area_body_cont1_icon_img"
                   />
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -707,18 +832,30 @@ const NewHome = () => {
       <section className="home_div_section5">
         <div className="custom_container">
           <div className="home_div_section5_area">
-            <div className="home_div_section5_area_title">
+            <motion.div
+              variants={fadeIn("down")}
+              transition={transition()}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="home_div_section5_area_title"
+            >
               Want to transition
               <br /> into the tech space?
               <div className="home_div_section5_area_title_para">
                 Let's get you trained from beginners to advance.
                 <br /> We offer courses such as
               </div>
-            </div>
+            </motion.div>
             <div className="home_div_section5_area_body_cont">
               {wallets.map((data) => (
-                <div
+                <motion.div
                   id={data.id}
+                  variants={fadeIn("Up")}
+                  transition={transition()}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: false }}
                   className="home_div_section5_area_body_cont_div1"
                 >
                   <div className="home_div_section5_area_body_cont_div1_img_div">
@@ -737,7 +874,7 @@ const NewHome = () => {
                   <div className="home_div_section5_area_body_cont_div1_last_txt">
                     COURSE
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
             <a href="/pricing" className="home_div_section5_area_btn_div">
@@ -776,7 +913,14 @@ const NewHome = () => {
       {/*============== */}
       <section className="NeewHomeSection3">
         <div className="NeewHomeSection3_area">
-          <div className="NeewHomeSection3_area1">
+          <motion.div
+            variants={fadeIn("down")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection3_area1"
+          >
             <div className="NeewHomeSection3_area1_tag">Projects</div>
             <div className="NeewHomeSection3_area1_title">Feautured Works</div>
             <div className="NeewHomeSection3_area1_para">
@@ -791,8 +935,15 @@ const NewHome = () => {
               <div className="NeewHomeSection3_area1_tab1">Media Mngmt</div>
               <div className="NeewHomeSection3_area1_tab1">Product Mngmt</div>
             </div> */}
-          </div>
-          <div className="NeewHomeSection3_area2">
+          </motion.div>
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection3_area2"
+          >
             <div className="NeewHomeSection3_area2_div1">
               <img
                 src="/img/works_bg1.jpeg"
@@ -814,7 +965,7 @@ const NewHome = () => {
                 className="NeewHomeSection3_area2_div1_img"
               />
             </div>
-          </div>
+          </motion.div>
           <div className="NeewHomeSection2_area_1_cont2_btn_div">
             <button className="Home_div_section1_area_1_btn">
               <span className="Home_div_section1_area_1_btn_span">
@@ -836,7 +987,14 @@ const NewHome = () => {
       {/*============== */}
       <section className="NeewHomeSection4">
         <div className="NeewHomeSection4_area">
-          <div className="NeewHomeSection4_area_1">
+          <motion.div
+            variants={fadeIn("down")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="NeewHomeSection4_area_1"
+          >
             <div className="NeewHomeSection4_area_1_title">The Team</div>
             <div className="NeewHomeSection4_area_1_para">
               Our team of cross-functional well-versed professionals transpose
@@ -844,9 +1002,16 @@ const NewHome = () => {
               conventional and ecommerce commissary, and product development
               from a service-oriented perspective.
             </div>
-          </div>
+          </motion.div>
           <div className="NeewHomeSection4_area_2">
-            <div className="Home_div_section6_area_2_cont1">
+            <motion.div
+              variants={fadeIn("Up")}
+              transition={{ duration: 0.75, delay: 0.4, ease: "easeIn" }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="Home_div_section6_area_2_cont1"
+            >
               <img
                 src="/img/team_member1.jpeg"
                 alt=""
@@ -869,8 +1034,15 @@ const NewHome = () => {
                   deserunt laudantium vitae eaque.
                 </div>
               </div>
-            </div>
-            <div className="Home_div_section6_area_2_cont1">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("Up")}
+              transition={{ duration: 0.75, delay: 0.6, ease: "easeIn" }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="Home_div_section6_area_2_cont1"
+            >
               <img
                 src="/img/team_member2.jpeg"
                 alt=""
@@ -893,8 +1065,15 @@ const NewHome = () => {
                   deserunt laudantium vitae eaque.
                 </div>
               </div>
-            </div>
-            <div className="Home_div_section6_area_2_cont1">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("Up")}
+              transition={{ duration: 0.75, delay: 0.8, ease: "easeIn" }}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="Home_div_section6_area_2_cont1"
+            >
               <img
                 src="/img/team_member3.jpeg"
                 alt=""
@@ -917,7 +1096,7 @@ const NewHome = () => {
                   deserunt laudantium vitae eaque.
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
@@ -943,7 +1122,14 @@ const NewHome = () => {
       {/*============== */}
       {/*============== */}
       <section className="NeewHomeSection5">
-        <div className="NeewHomeSection5_cont">
+        <motion.div
+          variants={fadeIn("Up")}
+          transition={{ duration: 0.75, delay: 0.4, ease: "easeIn" }}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false }}
+          className="NeewHomeSection5_cont"
+        >
           <div className="NeewHomeSection5_cont_1">
             <div className="NeewHomeSection5_cont_1_title">
               Have a project in mind?
@@ -995,7 +1181,7 @@ const NewHome = () => {
             </svg>
           </div> */}
           <Grid />
-        </div>
+        </motion.div>
         <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
       </section>
     </div>

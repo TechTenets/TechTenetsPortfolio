@@ -10,6 +10,7 @@ import JoinLeftIcon from "@mui/icons-material/JoinLeft";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import { motion } from "framer-motion";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 
 import "./header.css";
 
@@ -187,123 +188,47 @@ const Header = () => {
               />
             </div>
             <div className="headerMenuDiv_cont_body">
-              <a href="/wallet" className="headerMenuDiv_cont_body_link1">
-                Ego Wallet
-              </a>
-              <a
-                href={
-                  window.location.protocol === "http:"
-                    ? `http://localhost:${window.location.port}/egax/coin/info`
-                    : `https://egochain.org/egax/coin/info`
-                }
-                className="headerMenuDiv_cont_body_link1"
-              >
-                EGAX Coin
-              </a>
-              <a
-                href={
-                  window.location.protocol === "http:"
-                    ? `http://localhost:${window.location.port}/egc/coin/info`
-                    : `https://egochain.org/egc/coin/info`
-                }
-                className="headerMenuDiv_cont_body_link1"
-              >
-                EGC Coin
-              </a>
-              <a
-                href={
-                  window.location.protocol === "http:"
-                    ? `http://localhost:${window.location.port}/about`
-                    : `https://egochain.org/about`
-                }
-                className="headerMenuDiv_cont_body_link1"
-              >
-                About
-              </a>
-              <a
-                href={
-                  window.location.protocol === "http:"
-                    ? `http://localhost:${window.location.port}/whitepaper`
-                    : `https://egochain.org/whitepaper`
-                }
-                className="headerMenuDiv_cont_body_link1"
-              >
-                White paper
-              </a>
-              <a
-                href={
-                  window.location.protocol === "http:"
-                    ? `http://faucet.localhost:${window.location.port}/`
-                    : `https://faucet.egochain.org/`
-                }
-                className="headerMenuDiv_cont_body_link1"
-                target="_blank"
-              >
-                {" "}
-                Faucet
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
-              </a>
-              <a
-                href="https://github.com/EgorasMarket"
-                target="_blank"
-                className="headerMenuDiv_cont_body_link1"
-              >
-                {" "}
-                Developer
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
-              </a>
-              <a
-                href="https://egoswap.io"
-                className="headerMenuDiv_cont_body_link1"
-                target="_blank"
-              >
-                {" "}
-                Egoswap
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
-              </a>
-              <a
-                href="https://egoscan.io/"
-                className="headerMenuDiv_cont_body_link1"
-                target="_blank"
-              >
-                {" "}
-                Explorer
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
-              </a>
-              <a
-                href="https://egodao.org/"
-                className="headerMenuDiv_cont_body_link1"
-                target="_blank"
-              >
-                {" "}
-                Stake
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
-              </a>
-              {/* <div className="headerMenuDiv_cont_body_div">
-                <a
-                  href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
-                  target="_blank"
-                >
-                  <button className="header_div_area_2_btn">
-                    Get App{" "}
-                    <img
-                      src="/img/play_store_icon.png"
-                      alt=""
-                      className="header_div_area_2_btn_img"
-                    />
-                  </button>
-                </a>
-                <button className="header_div_area_2_btn2">
-                  <div className="header_div_area_2_btn2_div">
-                    Get App <span>coming soon</span>
+              <div className="headerMenuDiv_cont_body_link1">
+                <details open>
+                  <summary className="baccordion_title">Our Services</summary>
+                  <div className="accordion_body">
+                    <a href="#" className="accordion_body_links">
+                      Sound Engineering <KeyboardArrowRightIcon />
+                    </a>
+                    <a href="#" className="accordion_body_links">
+                      I.T Development <KeyboardArrowRightIcon />
+                    </a>
+                    <a href="#" className="accordion_body_links">
+                      Media Management <KeyboardArrowRightIcon />
+                    </a>
+                    <a href="#" className="accordion_body_links">
+                      Product Management <KeyboardArrowRightIcon />
+                    </a>
                   </div>
-                  <img
-                    src="/img/apple_store_icon.webp"
-                    alt=""
-                    className="header_div_area_2_btn2_img"
-                  />
+                </details>
+              </div>
+              <a href="#" className="headerMenuDiv_cont_body_link1">
+                About Us
+              </a>
+              <a href="#" className="headerMenuDiv_cont_body_link1">
+                Projects
+              </a>
+              <a href="/pricing" className="headerMenuDiv_cont_body_link1">
+                Pricing
+              </a>
+              <a
+                href="/contact_us"
+                className="headerMenuDiv_cont_body_link1_btn"
+              >
+                <button className="Home_div_section1_area_1_btn">
+                  <span className="Home_div_section1_area_1_btn_span">
+                    Contact Us{" "}
+                  </span>
+                  <div className="Home_div_section1_area_1_btn_icon_div">
+                    <ArrowForwardIcon className="Home_div_section1_area_1_btn_icon" />
+                  </div>
                 </button>
-              </div> */}
+              </a>
             </div>
           </div>
         </div>

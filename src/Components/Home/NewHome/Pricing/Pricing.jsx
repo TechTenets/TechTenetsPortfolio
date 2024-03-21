@@ -1,6 +1,7 @@
 import React from "react";
 import CheckIcon from "@mui/icons-material/Check";
 import "./Pricing.css";
+
 const Pricing = () => {
   return (
     <div className="pricing_page_div">
