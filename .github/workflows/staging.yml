@@ -26,9 +26,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.vitalskillsda.com
-        username: dev
+        server: ftp.trademindshub.com
+        username: good
         password: Xcode@200
         local-dir: ./dist/
-        server-dir: /techtenets.vitalskillsda.com/
+        # 
+        server-dir: /ediaudiotech.com/
         
