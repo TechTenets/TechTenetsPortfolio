@@ -1026,4 +1026,26 @@
     margin: 0em 0em;
     margin-right: 0em;
   }
+  .Home_div_section6_area_2_cont1:hover .Home_div_section6_area_2_cont1_name {
+    bottom: 75%;
+    transition: all 0.3s linear;
+  }
+  .Home_div_section6_area_2_cont1_name_title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .Home_div_section6_area_2_cont1_name_para {
+    font-size: 12px;
+  }
+  .Home_div_section6_area_2_cont1_About {
+    padding: 0 10px;
+
+    font-size: 14px;
+
+    border-radius: 10px;
+  }
+  .Home_div_section6_area_2_cont1_About_txt {
+    margin-bottom: 0em;
+    font-size: 10px;
+  }
 }
