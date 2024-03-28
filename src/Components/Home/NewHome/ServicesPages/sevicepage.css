@@ -1,0 +1,8 @@
+.servicePage_div_section1_area_2_img {
+  width: 100%;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  border: solid 10px white;
+}

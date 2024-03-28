@@ -696,16 +696,16 @@ const NewHome = () => {
                 className="home_div_section3_area_body_cont1"
               >
                 <div className="home_div_section3_area_body_cont1_title">
-                  Secure Network
+                  Sound
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Powered by EGAX's Secure Network
+                    Sound Engineering
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Node validators actively safeguard the EGOCHAIN by securing
-                    consensus, earning EGAX tokens as their well-deserved
-                    reward.
+                    Sound Engineering involves recording, manipulating, and
+                    producing audio to create desired effects or music,
+                    employing technical and creative skills.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -730,16 +730,16 @@ const NewHome = () => {
               >
                 {" "}
                 <div className="home_div_section3_area_body_cont1_title">
-                  Unleashing
+                  I.T
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Unleashing Interoperability
+                    I.T Development
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Powered by the robust Cosmos SDK, Egochain seamlessly
-                    connects to the vibrant Cosmos ecosystem (20+ chains, $40B+)
-                    through the IBC protocol.
+                    I.T. Development involves creating, enhancing, and
+                    maintaining software applications or systems to meet
+                    specific needs using coding and technological expertise.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -763,17 +763,17 @@ const NewHome = () => {
                 className="home_div_section3_area_body_cont1"
               >
                 <div className="home_div_section3_area_body_cont1_title">
-                  Unleash
+                  Media
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Unleash the Full Potential of Solidity
+                    Media Management
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Egochain's EVM compatibility empowers developers to leverage
-                    the familiar Solidity language and existing dApps, while
-                    reaping the benefits of Egochain's superior scalability and
-                    security.
+                    Media Management involves organizing, distributing, and
+                    optimizing content across various platforms to effectively
+                    communicate messages and engage audiences, utilizing
+                    strategic planning and analysis.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -797,17 +797,17 @@ const NewHome = () => {
                 className="home_div_section3_area_body_cont1"
               >
                 <div className="home_div_section3_area_body_cont1_title">
-                  Transactions
+                  Product
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Transactions by the Millions
+                    Product Management
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Tendermint Consensus delivers single-block finality and
-                    unmatched scalability, ensuring Egochain can handle the
-                    demands of thousands of protocols and millions of users –
-                    effortlessly.
+                    Product Management entails overseeing the development,
+                    launch, and improvement of a product, aligning customer
+                    needs with business goals through strategic planning and
+                    execution.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">

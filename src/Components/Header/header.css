@@ -10,6 +10,14 @@
   padding: 1em 0em;
   /* border-bottom: solid 1px #dedede; */
 }
+.header_div_area_2_link1_para {
+  width: 210px;
+  font-size: 14px;
+  margin-top: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #b5b5b5;
+}
 .header_div_relative {
   position: fixed;
   z-index: 100;
@@ -153,7 +161,7 @@
   /* border-bottom: solid 1px #2d2d2d; */
   padding: 10px;
   cursor: pointer;
-  color: #bdbdbd;
+  color: #ffffff;
   display: flex;
   align-items: flex-start;
   font-size: 18px;
@@ -164,6 +172,7 @@
   padding: 1em;
   min-height: 120px;
   background: #202020;
+  font-weight: 600;
 }
 .header_div_area_2_link1_img {
   margin-bottom: 1em;

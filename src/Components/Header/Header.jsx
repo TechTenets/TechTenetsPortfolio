@@ -122,6 +122,10 @@ const Header = () => {
                     className="header_div_area_2_link1_img"
                   />
                   Sound Engineering
+                  <div className="header_div_area_2_link1_para">
+                    Sound Engineering involves recording, manipulating, and
+                    producing audio...
+                  </div>
                 </a>
                 <a href="#" className="header_div_area_2_link1">
                   <img
@@ -130,6 +134,10 @@ const Header = () => {
                     className="header_div_area_2_link1_img"
                   />
                   I.T Development
+                  <div className="header_div_area_2_link1_para">
+                    I.T. Development involves creating, enhancing, and
+                    maintaining software...
+                  </div>
                 </a>
                 <a href="#" className="header_div_area_2_link1">
                   <img
@@ -138,6 +146,10 @@ const Header = () => {
                     className="header_div_area_2_link1_img"
                   />
                   Media Management
+                  <div className="header_div_area_2_link1_para">
+                    Media Management involves organizing, distributing, and
+                    optimizing content...
+                  </div>
                 </a>
                 <a href="#" className="header_div_area_2_link1">
                   <img
@@ -146,6 +158,10 @@ const Header = () => {
                     className="header_div_area_2_link1_img"
                   />
                   Product Management
+                  <div className="header_div_area_2_link1_para">
+                    Product Management entails overseeing the development,
+                    launch...
+                  </div>
                 </a>
               </motion.div>
               {/* <div className="header_div_area_2_div_drop"></div> */}
